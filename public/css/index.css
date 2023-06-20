@@ -1,0 +1,73 @@
+.navbar {
+    font-weight: bold;
+  }
+  .navbar-brand {
+    color: white;
+    
+  }
+  .nav-item {
+    margin-right: 10px;
+  }
+  .navbar-nav .nav-link {
+    color: white;
+  }
+  .navbar-nav .nav-link:hover {
+    color: orange;
+    text-decoration: underline;
+  }
+  .btn-orange {
+    background-color: orange;
+    color: white;
+    border-color: white;
+  }
+
+  .bg-image-01{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/div1.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 30rem; */
+  }
+
+  .bg-image-02{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/div4.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 65vh; */
+  }
+
+  .bg-orange{
+    background-color: orange;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+
+  @media(max-width:767px){
+    .navbar-brand {
+      font-size: .65rem;
+    }
+
+    .btn {
+      padding: .125rem .35rem;
+      font-size: 0.65rem;
+    }
+
+    .col-lg-6{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #t-area{
+      padding-left:6px;
+      padding-right:6px;
+    }
+
+    img {
+      vertical-align: middle;
+      border-style: none;
+      padding-bottom: 10px;
+    }
+
+    .submit-button2 button{
+      width: 247.2px;
+    }
+  }

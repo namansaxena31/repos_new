@@ -1,0 +1,138 @@
+.div1{
+  padding-top: 10rem;
+  color: whitesmoke;
+  height: 30rem;
+}
+
+.div2{
+  display: flex;
+    align-items: center;
+}
+
+.left-div2 {
+  flex: 1;
+  padding-right: 20px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-div2 img {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.right-div2 {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.right-div h2 {
+  margin-bottom: 10px;
+}
+
+.div3{
+  display: flex;
+    align-items: center;
+}
+
+.div4{
+  
+  background-size: cover;
+  padding: 5rem 0;
+  height: 20rem;
+  display: grid;
+  align-content: center;
+  
+}
+
+.sub-div4 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem ;
+}
+
+.sub2-div4{
+  background-color: white;
+  padding: 1rem 2rem ;
+  height: 5rem;
+  font-size: smaller;
+  display: flex;
+  border-radius: 1rem;
+}
+
+.div5{
+  background-color: grey;
+  margin-top: 5rem;
+  font-weight: bold;
+}
+.div5_2{
+  display: flex;
+  padding: 4rem;
+}
+
+.div5_2 img{
+  padding: 3rem;
+}
+
+.div6{
+  padding-top: 3rem;
+}
+.div6_1{
+  display: flex;
+  flex-direction: row;
+}
+
+.div6_1_left{
+  padding: 1rem 1rem;
+  background-color: orange;
+  border-radius: 1rem;
+  margin: 1rem;
+  width: 60rem;
+  height: 30rem;
+  font-size: large;
+  color: white;
+}
+
+.div6_1_right{
+  background-color: orange;
+  padding: 1rem;
+  height: 30rem;
+  width: 30rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  color: white;
+}
+
+.form1_grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 0.5rem;
+  column-gap: 0.5rem;
+}
+
+.form1_grid input{
+  border-radius: 0.5rem;
+  width: 29rem;
+  height: 3rem;
+  padding-left: 1rem;
+  border-color: white;
+  border-width: 0;
+}
+
+.form1_grid select{
+  border-radius: 0.3rem;
+  width: 29rem;
+  height: 3rem;
+  padding-left: 1rem;
+  border-color: white;
+  border-width: 0;
+}
+
+
+
